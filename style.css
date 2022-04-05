@@ -1,0 +1,25 @@
+
+.kaisha {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  }
+  
+  .kaisha th,
+  .kaisha td {
+  border: 1px solid #ccc;
+  padding: 30px;
+  }
+  
+  .kaisha th {
+  font-weight: bold;
+  background-color: #dedede; 
+  }
+  
+  @media screen and (max-width: 767px) {
+  .kaisha,
+  .kaisha tr,
+  .kaisha td,
+  .kaisha th {display:block;}
+  .kaisha th {width:auto;}
+  }
